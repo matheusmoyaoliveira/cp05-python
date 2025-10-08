@@ -132,13 +132,6 @@ checkpoint5/
 
 - Rodar `inserir_vendas.py` mais de uma vez **acumula** vendas (pois não limpa o JSON). Use o “reset” se quiser recomeçar.
 - No `main.py`, usamos `if __name__ == "__main__":` para que o script rode apenas quando executado diretamente, e não quando o módulo é importado.
-- O nome da função `recupera_vendas_comprador(vendedor)` foi mantido igual ao enunciado, mas filtra por **vendedor**. Se preferir, há um **alias** opcional:
-
-  ```python
-  def recupera_vendas_vendedor(vendedor: str) -> list:
-      """Alias mais claro para recupera_vendas_comprador."""
-      return recupera_vendas_comprador(vendedor)
-  ```
 
 ---
 
